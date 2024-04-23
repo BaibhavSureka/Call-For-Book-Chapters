@@ -23,8 +23,14 @@ Welcome to the Call for Book Chapters project! This repository hosts a professio
 - **Enhanced Review Process:** Implementing advanced review features to further ensure the quality of submissions.
 - **User Interaction Features:** Adding interactive elements to facilitate user engagement and collaboration.
 
-## Contributions
-Contributions to this project are highly valued! If you're interested in contributing, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/new-feature`).
+6. Create a new Pull Request.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
