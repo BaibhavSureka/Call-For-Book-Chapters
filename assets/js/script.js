@@ -1,11 +1,4 @@
 'use strict';
-
-
-
-/**
- * add event on element
- */
-
 const addEventOnelem = function (elem, type, callback) {
   if (elem.length > 1) {
     for (let i = 0; i < elem.length; i++) {
@@ -15,13 +8,6 @@ const addEventOnelem = function (elem, type, callback) {
     elem.addEventListener(type, callback);
   }
 }
-
-
-
-/**
- * toggle navbar
- */
-
 const navbar = document.querySelector("[data-navbar]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
 const navToggler = document.querySelector("[data-nav-toggler]");
@@ -40,12 +26,6 @@ const closeNavbar = function () {
 
 addEventOnelem(navbarLinks, "click", closeNavbar);
 
-
-
-/**
- * header active on scroll down to 100px
- */
-
 const header = document.querySelector("[data-header]");
 
 const activeHeader = function () {
@@ -57,12 +37,6 @@ const activeHeader = function () {
 }
 
 addEventOnelem(window, "scroll", activeHeader);
-
-
-
-/**
- * filter tab
- */
 
 const tabCard = document.querySelectorAll("[data-tab-card]");
 
