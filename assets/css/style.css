@@ -1234,7 +1234,6 @@ body .mynew {
 }
 
 .text-box .mynew {
-.text-box .mynew {
   margin-left: 44vw;
   margin-top: 42vh;
 }
@@ -1315,13 +1314,11 @@ body .mynew {
 
 @media (max-width: 768px) {
   .btn .mynew {
-  .btn .mynew {
     padding: 10px 30px;
   }
 }
 
 @media (min-width: 1200px) {
-  .btn .mynew {
   .btn .mynew {
     padding: 20px 50px;
   }
